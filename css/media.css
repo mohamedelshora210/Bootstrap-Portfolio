@@ -1,0 +1,141 @@
+@media (max-width : 1024px)
+{
+    #drop-deep
+{
+    /* right: -2%; */
+    position: relative;
+    top: 0;
+    left: 0;
+    display: none;
+}
+.dropdown-menu .deep:hover #drop-deep
+{
+  display: block;
+}
+a.nav-link:hover::before
+{
+    width: 0;
+}
+a.nav-link:hover
+{
+    color: rgb(19 111 254);
+}
+
+header
+{
+    background-attachment: scroll;
+}
+
+#counter
+{
+        background-attachment:scroll ;
+}
+#contact
+{
+      background-attachment: scroll;
+}
+#blog-details
+{
+     background-attachment: scroll;
+}
+#blog-wrapper
+{
+    .row
+    {
+        padding-inline: 0 ;
+       
+    }
+}
+
+}
+
+
+
+@media (max-width:767px)
+{
+    header
+    {
+        h1
+        {
+            font-size: 3rem;
+            padding-inline: 1.75rem;
+        }
+        p
+        {
+            font-size: 1.5rem;
+        }
+    }
+    #about
+    {
+        .about-shadow 
+        {
+            padding-inline: 4%;
+        }
+        picture 
+        {
+           
+            img 
+            {
+                width: 50% !important;
+            }
+        }
+    }
+    #testimonial
+{
+    background-attachment: scroll;
+
+    .content 
+    {
+        p 
+        {
+            width: 100%;
+        }
+    }
+}
+#blog-wrapper
+{
+     h1 
+        {
+            font-size: 20px;
+        }
+}
+}
+
+@media (min-width : 768px) and (max-width : 1024px)
+{
+     #about
+    {
+        .about-shadow 
+        {
+            padding-inline: 4%;
+            .img
+            {
+                
+                text-align: right;
+                
+                picture 
+                {
+                    img 
+                {
+                    width: 100% !important;
+                }
+                }
+        
+            }
+        }
+        
+        
+    }
+    #testimonial
+{
+    background-attachment: scroll;
+
+    .content 
+    {
+        p 
+        {
+            width: 75%;
+        }
+    }
+}
+}
